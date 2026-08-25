@@ -1,1 +1,1 @@
-if(num[j] < smallNum)
+  unique = unique ^ arr[i];
