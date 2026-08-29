@@ -1,1 +1,1 @@
-  unique = unique ^ arr[i];
+small
