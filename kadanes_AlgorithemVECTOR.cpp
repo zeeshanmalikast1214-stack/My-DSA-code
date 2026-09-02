@@ -1,28 +1,29 @@
 #include <iostream>
 #include <vector>
+#include <algorithm>
 #include <climits>
+
 using namespace std;
 
 int main() {
 
     vector<int> vec = {2, -5, 3, 4, -2, 6};
-    int size = vec.size();
 
-    int Max_sum = INT_MIN;
-    int current_sum = 0;
+    int maxSum = INT_MIN;
+    int currentSum = 0;
 
-    for (int i = 0; i < size; i++) {
+    for (int num : vec) {
 
-        current_sum += vec[i];
+        currentSum += num;
 
-        Max_sum = max(current_sum, Max_sum);
+        maxSum = max(currentSum, maxSum);
 
-        if (current_sum < 0) {
-            current_sum = 0;
+        if (currentSum < 0) {
+            currentSum = 0;
         }
     }
 
-    cout << "big sum : " << Max_sum << endl;
+    cout << "Maximum Subarray Sum: " << maxSum << endl;
 
     return 0;
 }
