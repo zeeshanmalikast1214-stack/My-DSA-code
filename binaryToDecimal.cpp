@@ -6,7 +6,7 @@ int main(){
      int binaryNum=101010;
 
 
-       int  decNum=0,power=1 ;
+       int  decNum=0,power=1 ;//i nnnbb
  
         while(binaryNum>0) {            //condition
                  int reminder=binaryNum%10;
