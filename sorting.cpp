@@ -4,7 +4,7 @@
 #include <algorithm>
 using namespace std;
 int main() {
-     vector<int>num= {1, 3, 2, 1, 2,1,3,1,1,1};
+     vector<int>num= {1, 3, 1, 2,1};
     auto size =num.size();
 
     // sort    
@@ -16,7 +16,7 @@ int main() {
          for(int i=0; i<size; i++){
 
                  if (  i >0 && num[i]==num[i-1]   ){
-                    frequency++;
+                    frequency++; 
                     }else{
                             frequency=1;
                          
