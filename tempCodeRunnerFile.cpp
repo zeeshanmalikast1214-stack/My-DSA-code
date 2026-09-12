@@ -1,1 +1,1 @@
-#include <algorithm>
+  cout << "Number of arguments: " << argc << endl;

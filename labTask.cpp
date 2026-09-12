@@ -1,3 +1,6 @@
+           //////// --------------------// LAB TASK (1) \\--------------------\\\\\\\\\\
+           //  --------------------  Using Commend line  argment   --------------------\\\\\\\\\
+
 #include <iostream>
 using namespace std;
 
